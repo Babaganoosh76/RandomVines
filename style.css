@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+	font-size: 500%;
+	text-align: center;
+}
+
+#title {
+	z-index: 2;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 45%;
+
+	animation: fadein 3s;
+	-webkit-animation: fadein 3s;
+	-moz-animation: fadein 3s;
+	-o-animation: fadein 3s;
+}
+
+@keyframes fadein {
+    0%		{ opacity: 0; }
+    30%		{ opacity: 0; }
+    100%	{ opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    0%		{ opacity: 0; }
+    30%		{ opacity: 0; }
+    100%	{ opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    0%		{ opacity: 0; }
+    30%		{ opacity: 0; }
+    100%	{ opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    0%		{ opacity: 0; }
+    30%		{ opacity: 0; }
+    100%	{ opacity: 1; }
+}
